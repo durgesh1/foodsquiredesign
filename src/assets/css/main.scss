@@ -1,0 +1,160 @@
+
+@media only screen and (max-width: 800px) {
+  #app {
+    margin-left:0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .iconSize{
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .right-side-bar {
+    margin-top: -11%;
+    width: 100%;
+    float: right;
+    min-height:100vh;
+    box-shadow: -3px 3px 10px 0 rgba(0, 0, 0, 0.14);
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
+    overflow: hidden;
+  }
+  .paddingIcon{
+    padding: 8px !important;
+    .at-card__body{
+      padding: 8px !important;
+    }
+
+  }
+  
+}
+@media only screen and (min-width: 800px) {
+  #app {
+    margin-left:40%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    
+  }
+  .iconSize{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .right-side-bar {
+    margin-top: -10%;
+    width: 52%;
+    float: right;
+    min-height:100vh;
+    box-shadow: -3px 3px 10px 0 rgba(0, 0, 0, 0.14);
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
+    overflow: hidden;
+  }
+  .paddingIcon{
+    padding: 15px !important;
+    .at-card__body{
+      padding: 0px !important;
+    }
+    .col-md-12{
+      flex-basis: 70.0%;
+      max-width: 70.0%;
+    }
+    .padTop{
+      padding-top: 3%;
+    }
+    .iconBorder{
+      border-left: 1px solid #e5e9f2;
+      height: 72px;
+      margin-top: -11px;
+      margin-bottom: -11px;
+    }
+
+  }
+  .sepratorBorder{ 
+    border: 1px solid #e5e9f2;
+  }
+}
+
+.at-btn + .at-btn {
+  margin-left: 0.5rem;
+}
+.close {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+.Choose-Store-Location {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  }
+.colWidth {
+  max-width: 100% !important;
+  flex-basis: 100%;
+}
+.dateTimecolWidth {
+  max-width: 40% !important;
+  flex-basis: 40%;
+}
+.datetimeTxtMargin {
+  margin: 5%;
+}
+.carMargin {
+  margin-left :18%;
+}
+.proceedBtn {
+  width: 100%;
+  padding: 4%;
+}
+.textInput {
+  border-radius: 4px;
+  padding: 14px 0;
+  font-size: 16px;
+}
+.topMargin {
+  margin-top:20px;
+}
+.at-input__original {
+  padding: 17px 12px;
+ font-size: 17px;
+}
+.at-input__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px 24px 0 0;
+  width: 20px;
+  height: 100%;
+  color: #C5D9E8;
+  font-size: 22px;
+  text-align: center;
+}
+.cardTitle {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: #54555e;
+}
+.cardDesc {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #747474;
+}
+.cardMargin {
+  margin-top: 3%;
+}
+.rowmargin {
+  margin-top: 5%;
+}
